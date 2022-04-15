@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Time Table</title>
+    </head>
+    <body>
+        <h1>Time Table<br>2nd Year</h1>
+        <h3>Enter your Roll number</h3>
+        <center>
+            <input type="text" onfocus="hide()" placeholder="ROLL NO" id="in">
+
+            <select name="customday" id="customday" onfocus="hide()">
+                <option value="0">Day: Automatic</option>
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+            </select>
+
+            <button onclick="func()">ENTER</button>
+        </center>
+        <div id="result">
+
+            <h3 id="alias"></h3>
+            <p id="en">Lorem ipsum</p>
+
+            <br> <br> <br>
+
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h2 class="timeslot" id="tslot1">08:00AM - 08:50AM</h2>
+                    <p class="desslot" id="dslot1">Lorem ipsum..</p>
+                    <a id="mslot1" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2 class="timeslot" id="tslot2">09:00AM - 09:50AM</h2>
+                    <p class="desslot" id="dslot2">Lorem ipsum..</p>
+                    <a id="mslot2" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                  </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot3">10:00AM - 10:50AM</h2>
+                    <p class="desslot" id="dslot3">Lorem ipsum..</p>
+                    <a id="mslot3" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot4">11:00AM - 11:50AM</h2>
+                    <p class="desslot" id="dslot4">Lorem ipsum..</p>
+                    <a id="mslot4" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot5">12:30PM - 02:45PM</h2>
+                    <p class="desslot" id="dslot5">Lorem ipsum..</p>
+                    <a id="mslot5" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot6">01:00PM - 03:00PM</h2>
+                    <p class="desslot" id="dslot6">Lorem ipsum..</p>
+                    <a id="mslot6" href="https://meet.google.com/aio-qyrw-nyn"></a>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot7">10:00AM - 01:00PM</h2>
+                    <p class="desslot" id="dslot7">Lorem ipsum..</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                    <h2 class="timeslot" id="tslot8">05.00 - 05.55</h2>
+                    <p class="desslot" id="dslot8">Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </body>
+</html>
